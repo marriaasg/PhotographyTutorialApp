@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">آموزش عکاسی</string>
+    <string name="fput">آموزش عکاسی</string>
+    <string name="fplt">همراه با چیلیک</string>
+    <string name="todo">TODO</string>
+    <string name="nav_test">آزمون</string>
+    <string name="nav_tutorial">آموزش</string>
+    <string name="nav_about_us">درباره ما</string>
+    <string name="nav_exit">خروج</string>
+    <string name="nav_title">سایر</string>
+    <string name="nav_image_view">company logo</string>
+    <string name="nav_text">آموزش عکاسی همراه با چیلیک</string>
+    <string name="navigation_drawer_open">Open drawer navigation</string>
+    <string name="navigation_drawer_close">Close drawer navigation</string>
+    
+    
+    
+    <string name="au_header">آموزشگاه عکاسي چيليک</string>
+    <string name="au_main"> داراي مجوز از سازمان آموزش فني و حرفه اي کشور
+        \n
+        برگزار کننده دوره های عکاسی
+        \n
+        از مقدماتي تا پيشرفته
+        \n
+        داراي آتليه تخصصي عکاسي پرتره و صنعتي</string>
+    <string name="au_motto">عکاسي تنها فشردن يک دکمه نيست!</string>
+    <string name="au_address">آدرس: سه راه سيمين، بعد از پمپ بنزين، ساختمان پاسارگاد (بانک قوامين)، طبقه1، واحد5</string>
+    <string name="au_phone">تلفن: 03137753225</string>
+    <string name="au_mobile">موبایل: 09133254822</string>
+    
+    
+    <string name="cv_tutorial1">مقدمه</string>
+    <string name="cv_tutorial2">ژانرهای عکاسی</string>
+    <string name="cv_tutorial3">انواع دوربین</string>
+    <string name="cv_tutorial4">انواع لنز</string>
+
+
+    <string name="cv_test1">عکاسی دیجیتال</string>
+    <string name="cv_test2">عکاسی پرتره</string>
+    <string name="cv_test3">عکاسی صنعتی و تبلیغاتی</string>
+    <string name="cv_test4">ویرایش عکس</string>
+    <string name="cv_test5">شبیه ساز آزمون فنی و حرفه ای</string>
+    <string name="cv_test_des">۳۰ سوال تستی</string>
+
+</resources>

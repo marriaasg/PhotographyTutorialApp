@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:background="#FFFFFF"
+            app:cardCornerRadius="22dp"
+            app:cardElevation="12dp"
+            app:contentPadding="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:padding="8dp"
+            >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/au_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/au_header"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                app:fontFamily="@font/vazirbold" />
+
+            <TextView
+                android:id="@+id/au_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20sp"
+                android:layout_marginRight="15dp"
+                android:text="@string/au_main"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                app:fontFamily="@font/vazir" />
+
+            <TextView
+                android:id="@+id/au_motto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:text="@string/au_motto"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                app:fontFamily="@font/vazirbold" />
+
+            <TextView
+                android:id="@+id/au_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="@string/au_address"
+                android:textSize="14sp"
+                app:fontFamily="@font/vazir" />
+
+            <TextView
+                android:id="@+id/au_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10sp"
+                android:layout_marginRight="15dp"
+                android:text="@string/au_phone"
+                android:textSize="14sp"
+                app:fontFamily="@font/vazir" />
+
+            <TextView
+                android:id="@+id/au_address-mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="@string/au_mobile"
+                android:textSize="14sp"
+                app:fontFamily="@font/vazir"
+                android:layout_marginBottom="80sp"/>
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+</RelativeLayout>
